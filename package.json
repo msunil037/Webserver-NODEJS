@@ -1,0 +1,24 @@
+{
+  "name": "webserver-nodejs",
+  "version": "1.0.0",
+  "description": "A demonstartion project for creating Webserver in Node JS",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msunil037/Webserver-NODEJS.git"
+  },
+  "author": "Sunil Kumar Majhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msunil037/Webserver-NODEJS/issues"
+  },
+  "homepage": "https://github.com/msunil037/Webserver-NODEJS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.9"
+  }
+}
